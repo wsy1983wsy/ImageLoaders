@@ -35,4 +35,15 @@
         android:layout_height="wrap_content"
         android:onClick="onFileImageClicked"
         android:text="showImageFromFile"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onFadeInImageClicked"
+        android:text="fadeIn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onDontAnimateClicked"
+        android:text="DontAnimate"/>
 </LinearLayout>

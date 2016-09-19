@@ -53,4 +53,17 @@ public class GlideSimpleShowImage extends AppCompatActivity {
         ImageView targetImageView = (ImageView) findViewById(R.id.imageView);
         Glide.with(this).load(imageFile).into(targetImageView);
     }
+
+    public void onFadeInImageClicked(View view) {
+        ImageView targetImageView = (ImageView) findViewById(R.id.imageView);
+        String imageUrl = Urls.ImageURls.get(0);
+        Glide.with(this).load(imageUrl).placeholder(R.mipmap.no_media).crossFade(1000).into(targetImageView);
+    }
+
+    public void onDontAnimateClicked(View view) {
+        ImageView targetImageView = (ImageView) findViewById(R.id.imageView);
+        String imageUrl = Urls.ImageURls.get(0);
+        Glide.with(this).load(imageUrl).placeholder(R.mipmap.no_media).dontAnimate().into(targetImageView);
+
+    }
 }
