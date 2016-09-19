@@ -24,4 +24,8 @@ public class GlideSamples extends AppCompatActivity {
         Intent intent = new Intent(this, GlideListView.class);
         startActivity(intent);
     }
+    public void onGridViewClicked(View view) {
+        Intent intent = new Intent(this, GlideGridView.class);
+        startActivity(intent);
+    }
 }

@@ -15,4 +15,10 @@
         android:layout_height="wrap_content"
         android:onClick="onListViewClicked"
         android:text="show a listview"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onGridViewClicked"
+        android:text="show a gridView"/>
+
 </LinearLayout>
