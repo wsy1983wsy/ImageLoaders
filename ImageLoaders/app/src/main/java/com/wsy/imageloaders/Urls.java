@@ -12,10 +12,10 @@ public class Urls {
         ImageURls = new ArrayList<>();
         ImageURls.add("http://odorfmjz1.bkt.clouddn.com/Picture_09_Stone.jpg");
         ImageURls.add("http://odorfmjz1.bkt.clouddn.com/Picture_05_structure.jpg");
-        ImageURls.add("http://odorfmjz1.bkt.clouddn.com/Picture_02_imagination.jpg");
+        ImageURls.add("http://odorfmjz1.bkt.clouddn.com/Picture_02_Imagination.jpg");
         ImageURls.add("http://odorfmjz1.bkt.clouddn.com/Picture_03_Eiffel.jpg");
         ImageURls.add("http://odorfmjz1.bkt.clouddn.com/Picture_07_Quiet.jpg");
-        ImageURls.add("http://odorfmjz1.bkt.clouddn.com/Picture_12_leopard.jpg");
+        ImageURls.add("http://odorfmjz1.bkt.clouddn.com/Picture_12_Leopard.jpg");
         ImageURls.add("http://odorfmjz1.bkt.clouddn.com/Picture_10_Camera.jpg");
         ImageURls.add("http://odorfmjz1.bkt.clouddn.com/Picture_08_Meadow.jpg");
         ImageURls.add("http://odorfmjz1.bkt.clouddn.com/Picture_04_Lake.jpg");

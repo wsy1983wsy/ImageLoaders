@@ -28,6 +28,9 @@
         <activity
             android:name=".GlideSimpleShowImage"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".GlideListView"
+            android:screenOrientation="portrait"/>
 
     </application>
 

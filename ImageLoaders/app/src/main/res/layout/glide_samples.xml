@@ -9,4 +9,10 @@
         android:layout_height="wrap_content"
         android:onClick="onShowAImageClicked"
         android:text="show a image"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onListViewClicked"
+        android:text="show a listview"/>
 </LinearLayout>

@@ -19,4 +19,9 @@ public class GlideSamples extends AppCompatActivity {
         Intent intent = new Intent(this, GlideSimpleShowImage.class);
         startActivity(intent);
     }
+
+    public void onListViewClicked(View view) {
+        Intent intent = new Intent(this, GlideListView.class);
+        startActivity(intent);
+    }
 }
