@@ -28,6 +28,7 @@
             android:text="show a gridView"/>
 
         <Button
+            android:id="@+id/glideCacheButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onCacheClicked"

@@ -51,13 +51,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="onFadeInImageClicked"
-                android:text="fadeIn"/>
+                android:text="fadeIn"
+                android:id="@+id/fadeInButton"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="onDontAnimateClicked"
-                android:text="DontAnimate"/>
+                android:text="DontAnimate"
+                android:id="@+id/animateButton"/>
 
             <Button
                 android:layout_width="match_parent"

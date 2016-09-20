@@ -24,7 +24,7 @@ public class GlideListView extends AppCompatActivity {
         setContentView(R.layout.image_listview);
         listview = (ListView) findViewById(R.id.listview);
         listview.setOnScrollListener(listPreloader);
-        ListAdapter listAdapter = new ListAdapter(this, R.layout.image_list_item, Urls.ImageURls);
+        ListAdapter listAdapter = new ListAdapter(this, R.layout.image_list_item, Urls.ImageURls, ListAdapter.LOADER_TYPE_GLIDE);
         listview.setAdapter(listAdapter);
     }
 

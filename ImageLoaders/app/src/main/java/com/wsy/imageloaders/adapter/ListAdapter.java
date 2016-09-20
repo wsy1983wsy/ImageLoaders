@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.squareup.picasso.Picasso;
 import com.wsy.imageloaders.R;
 
 import java.util.List;
@@ -16,6 +17,9 @@ import java.util.List;
  * Created by songyewang on 16/9/19.
  */
 public class ListAdapter extends ArrayAdapter<String> {
+    public static final int LOADER_TYPE_GLIDE = 1;
+    public static final int LOADER_TYPE_PICASSO = 2;
+    public static final int LOADER_TYPE_FRESCO = 3;
     public List<String> imageUrls;
     public LayoutInflater layoutInflater;
 
@@ -24,10 +28,13 @@ public class ListAdapter extends ArrayAdapter<String> {
         public String url;
     }
 
-    public ListAdapter(Context context, int resource, List<String> objects) {
+    private int loaderType;
+
+    public ListAdapter(Context context, int resource, List<String> objects, int type) {
         super(context, resource, objects);
         this.imageUrls = objects;
         layoutInflater = LayoutInflater.from(context);
+        loaderType = type;
     }
 
     @Override
@@ -52,7 +59,12 @@ public class ListAdapter extends ArrayAdapter<String> {
             viewHolder.imageView = (ImageView) view.findViewById(R.id.imageView);
         }
         String url = imageUrls.get(position);
-        Glide.with(getContext()).load(url).placeholder(R.mipmap.no_media).into(viewHolder.imageView);
+        if (loaderType == LOADER_TYPE_GLIDE) {
+            Glide.with(getContext()).load(url).placeholder(R.mipmap.no_media).into(viewHolder.imageView);
+        }
+        if (loaderType == LOADER_TYPE_PICASSO) {
+            Picasso.with(getContext()).load(url).placeholder(R.mipmap.no_media).into(viewHolder.imageView);
+        }
         view.setTag(viewHolder);
         return view;
     }

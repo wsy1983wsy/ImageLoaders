@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, GlideSamples.class);
         startActivity(intent);
     }
+
+    public void onPicassoClicked(View view){
+        Intent intent = new Intent(this, PicassoSamples.class);
+        startActivity(intent);
+    }
 }

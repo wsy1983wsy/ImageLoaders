@@ -37,6 +37,19 @@
         <activity
             android:name=".GlideCache"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".PicassoSimpleShowImage"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".PicassoListView"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".PicassoGridView"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".PicassoSamples"
+            android:screenOrientation="portrait"/>
+
 
     </application>
 
