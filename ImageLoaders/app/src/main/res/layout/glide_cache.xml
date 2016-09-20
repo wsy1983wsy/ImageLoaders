@@ -8,9 +8,9 @@
         android:id="@+id/imageView"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:background="#f00"
         android:padding="5dp"
         android:scaleType="centerCrop"
-        android:background="#f00"
         android:src="@mipmap/no_media"/>
 
     <ScrollView
@@ -26,46 +26,48 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onSimpleImageClicked"
-                android:text="loadImage"/>
+                android:onClick="onDiskCategoryClicked"
+                android:text="disk Category"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onResourceImageClicked"
-                android:text="showResourceImage"/>
+                android:onClick="onSkipMemoryClicked"
+                android:text="skip memory"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onUriImageClicked"
-                android:text="showImageFromUri"/>
+                android:onClick="onThumbImageClicked"
+                android:text="thumb image"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onFileImageClicked"
-                android:text="showImageFromFile"/>
+                android:onClick="onOtherThumbImageClicked"
+                android:text="other image as thumb image"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onFadeInImageClicked"
-                android:text="fadeIn"/>
+                android:onClick="onSimpleTargetClicked"
+                android:text="Simple Target"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onDontAnimateClicked"
-                android:text="DontAnimate"/>
-
+                android:onClick="onListenerClicked"
+                android:text="Request Listener"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onResizeClicked"
-                android:text="Resize"/>
+                android:onClick="onBlurTransformationClicked"
+                android:text="BlurTransformation"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onGetImageBytesClicked"
+                android:text="getImageBytes"/>
         </LinearLayout>
     </ScrollView>
-
-
 </LinearLayout>

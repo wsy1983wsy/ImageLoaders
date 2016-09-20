@@ -64,6 +64,11 @@ public class GlideSimpleShowImage extends AppCompatActivity {
         ImageView targetImageView = (ImageView) findViewById(R.id.imageView);
         String imageUrl = Urls.ImageURls.get(0);
         Glide.with(this).load(imageUrl).placeholder(R.mipmap.no_media).dontAnimate().into(targetImageView);
+    }
 
+    public void onResizeClicked(View view) {
+        ImageView targetImageView = (ImageView) findViewById(R.id.imageView);
+        String imageUrl = Urls.ImageURls.get(0);
+        Glide.with(this).load(imageUrl).fitCenter().into(targetImageView);
     }
 }

@@ -23,4 +23,24 @@ public class Urls {
         ImageURls.add("http://odorfmjz1.bkt.clouddn.com/Picture_11_Taste.jpg");
         ImageURls.add("http://odorfmjz1.bkt.clouddn.com/Picture_06_Space.jpg");
     }
+
+    public static ArrayList<String> eatImages;
+
+    static {
+        eatImages = new ArrayList<>();
+        eatImages.add("http://i.imgur.com/rFLNqWI.jpg");
+        eatImages.add("http://i.imgur.com/C9pBVt7.jpg");
+        eatImages.add("http://i.imgur.com/rT5vXE1.jpg");
+        eatImages.add("http://i.imgur.com/aIy5R2k.jpg");
+        eatImages.add("http://i.imgur.com/MoJs9pT.jpg");
+        eatImages.add("http://i.imgur.com/S963yEM.jpg");
+        eatImages.add("http://i.imgur.com/rLR2cyc.jpg");
+        eatImages.add("http://i.imgur.com/SEPdUIx.jpg");
+        eatImages.add("http://i.imgur.com/aC9OjaM.jpg");
+        eatImages.add("http://i.imgur.com/76Jfv9b.jpg");
+        eatImages.add("http://i.imgur.com/fUX7EIB.jpg");
+        eatImages.add("http://i.imgur.com/syELajx.jpg");
+        eatImages.add("http://i.imgur.com/COzBnru.jpg");
+        eatImages.add("http://i.imgur.com/Z3QjilA.jpg");
+    }
 }
