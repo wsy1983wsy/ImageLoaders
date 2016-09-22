@@ -18,7 +18,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void onPicassoClicked(View view){
+    public void onPicassoClicked(View view) {
+        Intent intent = new Intent(this, PicassoSamples.class);
+        startActivity(intent);
+    }
+
+    public void onFrescoClicked(View view) {
         Intent intent = new Intent(this, PicassoSamples.class);
         startActivity(intent);
     }

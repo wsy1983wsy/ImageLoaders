@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.Toast;
 
 /**
- * Created by songyewang on 16/9/20.
+ * Created by songyewang on 16/9/21.
  */
-public class PicassoSamples extends AppCompatActivity {
+public class FrescoSamples extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +18,7 @@ public class PicassoSamples extends AppCompatActivity {
     }
 
     public void onShowAImageClicked(View view) {
-        Intent intent = new Intent(this, FrescoSimpleShowImage.class);
+        Intent intent = new Intent(this, PicassoSimpleShowImage.class);
         startActivity(intent);
     }
 
