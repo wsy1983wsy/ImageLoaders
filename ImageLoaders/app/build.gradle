@@ -33,4 +33,5 @@ dependencies {
     // 支持 WebP （静态图+动图），需要添加
     compile 'com.facebook.fresco:animated-webp:0.13.0'
     compile 'com.facebook.fresco:webpsupport:0.13.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha1'
 }
